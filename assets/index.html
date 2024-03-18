@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="/img/LOGO SOLO.png">
+  <title>Portafolio Daniel</title>
+</head>
+
+<body onclick="PlayAudio()">
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>D</span>aniel <span>M</span>ERIÑO</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Inicio</a></li>
+            <li><a href="#services" data-after="Service">Servicios</a></li>
+            <li><a href="#projects" data-after="Projects">Proyectos</a></li>
+            <li><a href="#about" data-after="About">Acerca De</a></li>
+            <li><a href="#contact" data-after="Contact">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>¡Hola, <span></span></h1>
+        <h1>Mi nombre es <span></span></h1>
+        <h1>Daniel Meriño,<span></span></h1>
+		<h1>Bienvenido!</h1>
+    <a href="HV - DANIEL MERIÑO TORRES.pdf" type="button" class="cta" target="_blank">Ver Hoja de Vida</a>
+      </div>
+      <video id="logo" autoplay loop muted>
+        <source src="/img/LOGO DEV - DANIEL.mp4" type="video/mp4">
+        Tu navegador no soporta el elemento de video.
+      </video>
+      <audio id="musica" autoplay loop>
+        <source src="/audio/Drake  - Gods Plan - BeatInstrumental.mp3" type="audio/mpeg">
+        Este navegador no acepta formatos de audio.
+      </audio>
+    </div>
+  </section>
+  <script>
+    function PlayAudio() {
+      document.getElementById("musica").play();
+    }
+  </script>
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Serv<span>i</span>cios</h1>
+        <p>En este apartado podrás observar y analizar detalladamente los servicios que te puedo ofrecer.</p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img  src="https://img.icons8.com/bubbles/100/code.png" /></div>
+          <h2>Desarrollo Backend</h2>
+          <p>Diseñaré, modificaré, repararé y mantendré aplicaciones de software o sistemas de información, entre otros servicios, garantizando un uso fluido y sin contratiempos que generen estrés para compañeros, clientes y otros usuarios finales.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/clouds/100/code.png"></div>
+          <h2>Desarrollo Frontend</h2>
+          <p>Trabajaré la interfaz de usuario, para que la interacción con el sistema sea posible. Por lo tanto, me encargaré de la parte visual de la web (de todo aquello que puedes ver en tu explorador) haciendo que tu diseño sea intuitivo y atractivo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Proyectos <span>Recientes</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Bolsa de Empleo utilizando Web Scraping</h1>
+            <h2>Proyecto de Grado - Tecnología</h2>
+            <p>El proyecto se centró en el desarrolló un Sistema de Gestión de Bolsa de Empleo utilizando Web Scraping para facilitar a los usuarios la exploración y acceso a oportunidades laborales de varios portales líderes.</p>
+          </div>
+          <div class="project-img">
+          <video class="project-img" autoplay loop muted>
+            <source src="/img/sgbe.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+          </video>
+        </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>INTELLECTRA</h1>
+            <h2>PROYECTO PERSONAL</h2>
+            <p>Intellectra es un chatbot de respuestas avanzado, desarrollado con el objetivo de brindar asistencia instantánea y precisa en diversos ámbitos. Inspirado en el modelo de inteligencia artificial de OpenAI, Intellectra emplea técnicas de procesamiento de lenguaje natural para comprender y responder preguntas de manera inteligente.</p>
+          </div>
+          <div class="project-img">
+          <video class="project-img" autoplay loop muted>
+            <source src="/img/INTELLECTRA.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+          </video>
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Aquí tuviera más proyectos</h1>
+            <!--<h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>-->
+          </div>
+          <div class="project-img">
+            <img src="/img/a.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Si tan solo tuviera algunos más</h1>
+            <!--<h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>-->
+          </div>
+          <div class="project-img">
+            <img src="/img/aa.jpg" alt="img">
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="/img/yo2.JPG" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">Acerca de <span>mi</span></h1>
+        <h2>Systems Engineer - CURN SISTEMAS</h2>
+        <p>Soy una persona altamente capacitada y motivada con una sólida experiencia en el diseño, desarrollo e implementación de soluciones tecnológicas innovadoras. Con un enfoque orientado a resultados y una pasión por la resolución de problemas, me esfuerzo por aprovechar mi experiencia técnica para contribuir al éxito y crecimiento de la organización. Además, soy altamente responsable, organizado y puntual, con una gran capacidad para asumir retos. Me defino como una persona emprendedora, dinámica y metódica, siempre en busca de oportunidades para aportar ideas y estrategias innovadoras que impulsen el desarrollo de proyectos a nivel organizacional.
+        </p>
+        <!--<a href="#" class="cta">Descargar resumen</a>-->
+      </div>
+    </div>
+	<div id="skills">
+		<h1 class="section-title">MIS HABIL<span>i</span>DADES</h1>
+		<div class="skills-container">
+		  <img class="skill-logo" src="/img/js.png" alt="Logo 1"> 
+		  <img class="skill-logo" src="/img/angular.png" alt="Logo 2"> 
+		  <img class="skill-logo" src="/img/python.png" alt="Logo 3">
+		  <img class="skill-logo" src="/img/sqlmanagement.png" alt="Logo 3">
+		  <img class="skill-logo" src="/img/mysql.svg" alt="Logo 2"> 
+		  <img class="skill-logo" src="/img/mongo.png" alt="Logo 3">
+		  <img class="skill-logo" src="/img/git.png" alt="Logo 3">    
+		  <img class="skill-logo" src="/img/github.png" alt="Logo 3"> 
+      <img class="skill-logo" src="/img/tailwind.png" alt="Logo 3">  
+      <img class="skill-logo" src="/img/nestjs.svg" alt="Logo 3">  
+		</div>
+	  </div>
+  </section>
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Información de<span> Contacto</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Teléfono</h1>
+            <h2>302-2396163</h2>
+            <h2>605-6391286</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Correo</h1>
+            <h2>dmerinot21@curnvirtual.edu.co</h2>
+            <h2>danieljmt03@gmail.com</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Dirección</h1>
+            <h2>Cartagena, Colombia. Subida de la popa CRA 21 #36-32</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>D</span>aniel <span>T</span>orres</h1>
+      </div>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://www.facebook.com/profile.php?id=100075730270955" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.instagram.com/danieljmt03/" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.linkedin.com/in/daniel-meri%C3%B1o-torres-83727a280/" target="_blank"><img src="/img/icons8-linkedin-100.png" /></a>
+        </div>
+      </div>
+      <p>Copyright © 2024 Daniel Meriño. Todos los derechos reservados.</p>
+    </div>
+  </section>
+</body>
+
+</html>
